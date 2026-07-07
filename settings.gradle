@@ -1,0 +1,2 @@
+include 'AetherGate'
+include 'AetherGate.tests'
