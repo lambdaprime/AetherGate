@@ -1,7 +1,10 @@
 /**
- * <b>AetherGate</b> - A Java module for automated <a
- * href="https://modelcontextprotocol.io/docs/tutorials/security/authorization">OAuth 2.1-based
- * authorization flow for MCP</a> (Model Context Protocol) servers.
+ * <b>AetherGate</b> - A Java module for automated OAuth 2.1-based authorization flow with a server
+ * (eg. MCP).
+ *
+ * <p>The flow itself is described as part of <a
+ * href="https://modelcontextprotocol.io/docs/tutorials/security/authorization">Model Context
+ * Protocol</a> documentation.
  *
  * <p>Available functionality:
  *

@@ -1,16 +1,4 @@
-Bootstrap project for Java app and library.
-
-It includes:
-
-- tests are moved into separate project which gives two benefits:
-    - supports Java modularity
-    - allows to use SNAPSHOT dependencies in the test project (otherwise you cannot release project which has SNAPSHOT dependencies)
-- publishing to artifactory
-- generation of Javadoc and publishing it to SCM
-- separate Maven profile for running integration tests
-- separate Maven profile for building standalone application
-- JUnit, slf4j, jacoco, spotless
-- Jenkins job definition for release
+**AetherGate** - A Java module for automated OAuth 2.1-based authorization flow with a server (eg. MCP).
 
 # Requirements
 
