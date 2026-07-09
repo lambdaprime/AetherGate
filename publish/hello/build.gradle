@@ -1,3 +1,0 @@
-// We use gradle-nexus-staging-plugin only to close and release repository
-// which already has published project artifact. This means we don't need to provide
-// gradle-nexus-staging-plugin original project and instead can use empty one.

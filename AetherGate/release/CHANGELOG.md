@@ -1,5 +1,6 @@
 # Version 1
 
-This version is currently under development.
+- Update README
+- Initial commit
 
-Until it is ready please build it manually (see [DEVELOPMENT.md](../../DEVELOPMENT.md))
+[AetherGate-1.0.jar](https://github.com/lambdaprime/AetherGate/raw/main/AetherGate/release/AetherGate-1.0.jar)

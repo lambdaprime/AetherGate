@@ -6,6 +6,30 @@ gradle publishToMavenLocal \
  -PossrhUsername=XXX \
  -PossrhPassword=XXX
 
+# Publish to Maven Central via Sonatype:
+
+export nexusA=
+export nexusB=
+
+gradle clean build
+
+1. Publish to staging folder
+
+gradle publish \
+ -Ppublish=true \
+ -Psigning.secretKeyRingFile=XXX \
+ -Psigning.password=XXX \
+ -Psigning.keyId=XXX \
+ -PossrhUsername=$nexusA \
+ -PossrhPassword=$nexusB
+
+2. Publish staging to Sonatype and release
+
+gradle jreleaserDeploy \
+ -Ppublish=true \
+ -PossrhUsername=$nexusA \
+ -PossrhPassword=$nexusB
+
 **************************************************/
 
 plugins {
